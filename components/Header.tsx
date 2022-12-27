@@ -11,7 +11,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import Image from 'next/image';
-import Logo from '/public/images/logo.png';
+import Logo from '/public/images/project_logo.png';
 import Tilt from 'react-parallax-tilt';
 
 const pages = ['About', 'Contact', 'Projects', 'Gallery', 'Skills'];

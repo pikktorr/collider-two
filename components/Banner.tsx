@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Logo from '/public/images/logo.png';
+import Logo from '/public/images/project_logo.png';
 import Tilt from 'react-parallax-tilt';
 import Container from '@mui/material/Container';
 
