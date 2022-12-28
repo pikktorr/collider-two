@@ -11,134 +11,83 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import Image from 'next/image';
-import Logo from '/public/images/project_logo.png';
+import LogoNamed from '/public/images/collider_logo_named.png';
 import Tilt from 'react-parallax-tilt';
 
 const pages = ['About', 'Contact', 'Projects', 'Gallery', 'Skills'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Header() {
-  const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
-    null
-  );
-  const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(
-    null
-  );
-
-  const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
-    setAnchorElNav(event.currentTarget);
-  };
-  const handleOpenUserMenu = (event: React.MouseEvent<HTMLElement>) => {
-    setAnchorElUser(event.currentTarget);
-  };
-
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
-  };
-
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
-  };
-
   return (
-    <Container maxWidth='lg'>
+    <Container maxWidth='lg' className='hidden sm:block'>
       <Tilt tiltMaxAngleX={1} tiltMaxAngleY={1}>
         <AppBar position='static' className='shadow-xl bg-white rounded-full'>
-          <Toolbar className='px-4'>
-            <Image
-              src={Logo}
-              alt='alt'
-              width={36}
-              aria-label='account of current user'
-              aria-controls='menu-appbar'
-              aria-haspopup='true'
-              onClick={handleOpenNavMenu}
-            />
-            <Menu
-              id='menu-appbar'
-              anchorEl={anchorElNav}
-              anchorOrigin={{
-                vertical: 'bottom',
-                horizontal: 'left'
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'left'
-              }}
-              open={Boolean(anchorElNav)}
-              onClose={handleCloseNavMenu}
-              sx={{
-                display: { xs: 'block', md: 'none' }
-              }}
-            >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign='center'>{page}</Typography>
-                </MenuItem>
-              ))}
-            </Menu>
-            <Typography
-              variant='h6'
-              noWrap
-              component='a'
-              href='/'
-              sx={{
-                mr: 2,
-                display: { xs: 'none', md: 'flex' }
-              }}
-              className='text-slate-700 font-mono'
-            >
-              collider.two
-            </Typography>
-
-            <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-              {pages.map((page) => (
-                <Button
-                  key={page}
-                  onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: 'white', display: 'block' }}
-                >
-                  {page}
-                </Button>
-              ))}
-            </Box>
-
-            <Box sx={{ flexGrow: 0 }}>
-              <Tooltip title='Open settings'>
-                <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                  <Avatar
-                    src='/static/images/avatar/2.jpg'
-                    sx={{ width: 48, height: 48 }}
-                    className='bg-gradient-to-b from-cyan-500 to-blue-500 font-sans'
-                  >
-                    RV
-                  </Avatar>
-                </IconButton>
-              </Tooltip>
-              <Menu
-                sx={{ mt: '45px' }}
+          <Toolbar className='px-4 justify-between'>
+            <div className='flex flex-row'>
+              <Image
+                src={LogoNamed}
+                alt='alt'
+                width={130}
+                aria-label='account of current user'
+                aria-controls='menu-appbar'
+                aria-haspopup='true'
+              />
+              {/* <Menu
                 id='menu-appbar'
-                anchorEl={anchorElUser}
+                anchorEl={anchorElNav}
                 anchorOrigin={{
-                  vertical: 'top',
-                  horizontal: 'right'
+                  vertical: 'bottom',
+                  horizontal: 'left'
                 }}
                 keepMounted
                 transformOrigin={{
                   vertical: 'top',
-                  horizontal: 'right'
+                  horizontal: 'left'
                 }}
-                open={Boolean(anchorElUser)}
-                onClose={handleCloseUserMenu}
+                open={Boolean(anchorElNav)}
+                onClose={handleCloseNavMenu}
+                sx={{
+                  display: { xs: 'block', md: 'none' }
+                }}
               >
-                {settings.map((setting) => (
-                  <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                    <Typography textAlign='center'>{setting}</Typography>
+                {pages.map((page) => (
+                  <MenuItem key={page} onClick={handleCloseNavMenu}>
+                    <Typography textAlign='center'>{page}</Typography>
                   </MenuItem>
                 ))}
-              </Menu>
-            </Box>
+              </Menu> */}
+              {/* <Typography
+                variant='h6'
+                noWrap
+                component='a'
+                href='/'
+                sx={{
+                  mr: 2,
+                  display: { xs: 'none', md: 'flex' }
+                }}
+                className='text-slate-700 font-mono'
+              >
+                collider.two
+              </Typography> */}
+            </div>
+
+            <div>
+              {pages.map((page) => (
+                <Button
+                  key={page}
+                  className='
+              text-slate-700
+              hover:text-slate-50
+              hover:bg-gradient-to-r from-pink-500 to-indigo-700
+              font-mono 
+              font-medium
+              rounded-full
+              px-3
+              '
+                >
+                  {page}
+                </Button>
+              ))}
+            </div>
           </Toolbar>
         </AppBar>
       </Tilt>
