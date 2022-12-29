@@ -8,11 +8,11 @@ const Banner = () => {
 
   return (
     <Container maxWidth='md'>
-      <Tilt>
+      <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
         <div
           onClick={handleImageTap}
           className={
-            'w-2/3 mx-auto my-20 max-sm:bg-white max-sm:p-2 max-sm:animate-pulse max-sm:shadow-lg sm:pointer-events-none rounded-full'
+            'my-20 mx-auto w-2/3 rounded-full max-sm:animate-pulse max-sm:overflow-hidden max-sm:bg-white max-sm:p-2 max-sm:shadow-lg sm:pointer-events-none'
           }
         >
           <Image

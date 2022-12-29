@@ -19,9 +19,8 @@ const pages = ['About', 'Contact', 'Projects', 'Gallery', 'Skills'];
 function Header() {
   return (
     <Container maxWidth='lg' className='hidden sm:block'>
-      <Tilt tiltMaxAngleX={1} tiltMaxAngleY={1}>
-        <AppBar position='static' className='shadow-xl bg-white rounded-full'>
-          <Toolbar className='px-4 justify-between'>
+        <AppBar position='static' className='bg-white rounded-full shadow-xl'>
+          <Toolbar className='justify-between px-4'>
             <div className='flex flex-row'>
               <Image
                 src={LogoNamed}
@@ -64,7 +63,7 @@ function Header() {
                   mr: 2,
                   display: { xs: 'none', md: 'flex' }
                 }}
-                className='text-slate-700 font-mono'
+                className='font-mono text-slate-700'
               >
                 collider.two
               </Typography> */}
@@ -82,6 +81,7 @@ function Header() {
               font-medium
               rounded-full
               px-3
+              transition-[background-color] ease-in-out duration-1000
               '
                 >
                   {page}
@@ -90,7 +90,6 @@ function Header() {
             </div>
           </Toolbar>
         </AppBar>
-      </Tilt>
     </Container>
   );
 }

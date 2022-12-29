@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Header from '../components/Header';
 import Banner from '../components/Banner';
+import About from '../components/About';
 
 export default function Home() {
   return (
@@ -12,9 +13,10 @@ export default function Home() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <main className='bg-gradient-to-b from-blue-100 to-slate-50  py-8 text-slate-700 font-mono'>
+      <main className='py-8 font-mono bg-gradient-to-b from-blue-100 to-slate-50  text-slate-700'>
         <Header />
         <Banner />
+        <About />
       </main>
     </>
   );
