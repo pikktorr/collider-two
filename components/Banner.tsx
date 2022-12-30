@@ -7,7 +7,7 @@ const Banner = () => {
   const handleImageTap = () => console.log('tap tap tap');
 
   return (
-    <Container maxWidth='md'>
+    <Container maxWidth='md' className='max-sm:h-[100vh]'>
       <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
         <div
           onClick={handleImageTap}
