@@ -18,7 +18,7 @@ const pages = ['About', 'Contact', 'Projects', 'Gallery', 'Skills'];
 
 function Header() {
   return (
-    <Container maxWidth='lg' className='hidden sm:block'>
+    <Container maxWidth='lg' className='max-sm:hidden'>
         <AppBar position='static' className='bg-white rounded-full shadow-xl'>
           <Toolbar className='justify-between px-4'>
             <div className='flex flex-row'>
@@ -81,7 +81,7 @@ function Header() {
               font-medium
               rounded-full
               px-3
-              transition-[background-color] ease-in-out duration-1000
+              transition-all ease-in-out duration-300
               '
                 >
                   {page}
