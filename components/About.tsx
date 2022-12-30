@@ -9,6 +9,7 @@ import {
   IconButton
 } from '@mui/material';
 import Image from 'next/image';
+import Link from 'next/link';
 import ProfilePic1 from '/public/images/profile_1.jpeg';
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -18,11 +19,31 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 const About = () => {
   const contactList = [
-    <EmailIcon key='mail' />,
-    <LinkedInIcon key='linkedin' />,
-    <GitHubIcon key='github' />,
-    <TwitterIcon key='twitter' />,
-    <InstagramIcon key='instagram' />
+    {
+      key: 'mail',
+      component: <EmailIcon key='mail' />,
+      url: process.env.NEXT_PUBLIC_MAIL as string
+    },
+    {
+      key: 'linkedin',
+      component: <LinkedInIcon key='linkedin' />,
+      url: process.env.NEXT_PUBLIC_LINKEDIN as string
+    },
+    {
+      key: 'github',
+      component: <GitHubIcon key='github' />,
+      url: process.env.NEXT_PUBLIC_GITHUB as string
+    },
+    {
+      key: 'twitter',
+      component: <TwitterIcon key='twitter' />,
+      url: process.env.NEXT_PUBLIC_TWITTER as string
+    },
+    {
+      key: 'instagram',
+      component: <InstagramIcon key='instagram' />,
+      url: process.env.NEXT_PUBLIC_INSTAGRAM as string
+    }
   ];
 
   return (
@@ -77,9 +98,11 @@ const About = () => {
                 size='large'
                 aria-label='delete'
                 className='from-pink-500 to-indigo-700
-                  text-slate-700 transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:text-slate-50'
+                text-slate-700 transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:text-slate-50'
+                href={item.url}
+                target='_blank'
               >
-                {item}
+                {item.component}
               </IconButton>
             ))}
           </CardActions>
