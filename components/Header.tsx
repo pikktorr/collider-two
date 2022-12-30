@@ -6,7 +6,6 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
@@ -14,7 +13,7 @@ import Image from 'next/image';
 import LogoNamed from '/public/images/collider_logo_named.png';
 import Tilt from 'react-parallax-tilt';
 
-const pages = ['About', 'Contact', 'Projects', 'Gallery', 'Skills'];
+const pages = ['About', 'Projects', 'Gallery', 'Skills'];
 
 function Header() {
   return (
@@ -73,16 +72,7 @@ function Header() {
               {pages.map((page) => (
                 <Button
                   key={page}
-                  className='
-              text-slate-700
-              hover:text-slate-50
-              hover:bg-gradient-to-r from-pink-500 to-indigo-700
-              font-mono 
-              font-medium
-              rounded-full
-              px-3
-              transition-all ease-in-out duration-300
-              '
+                  className='px-3 font-mono font-medium transition-all duration-300 ease-in-out rounded-full text-slate-700 hover:text-slate-50 hover:bg-gradient-to-r from-pink-500 to-indigo-700'
                 >
                   {page}
                 </Button>
