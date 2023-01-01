@@ -45,17 +45,21 @@ const ImageDialog = ({ imageUrl, open, handleClose }: ImageDialogProps) => {
       maxWidth='xl'
       PaperProps={{
         sx: {
-          // backgroundColor: 'transparent',
           justifyContent: 'center',
           alignItems: 'center',
           boxShadow: 'none',
-          maxWidth: '95vw',
+          maxWidth: '100vw',
           maxHeight: '95vh',
           pointerEvents: 'none',
           overflow: 'hidden',
           borderRadius: '10px',
-          width: 'max-content'
-          // height: 'auto'
+          width: 'max-content',
+          margin: '16px'
+        }
+      }}
+      BackdropProps={{
+        sx: {
+          backgroundColor: '#000000db'
         }
       }}
     >
@@ -68,10 +72,8 @@ const ImageDialog = ({ imageUrl, open, handleClose }: ImageDialogProps) => {
           objectFit: 'contain',
           pointerEvents: 'all',
           borderRadius: '10px',
-          maxWidth: '95vw',
+          maxWidth: '100vw',
           maxHeight: '95vh'
-          // width: '100%',
-          // height: '100%'
         }}
       />
       {/* <DialogTitle id='alert-dialog-title'>

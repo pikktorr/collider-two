@@ -1,146 +1,147 @@
 [
   {
-    "imageUrl": "../public/images/skills/3dsmax.png",
-    "name": "3ds Max"
-  },
+    "imageUrl": "/images/3dsmax.png",
+    "name": "3ds Max"  },
   {
-    "imageUrl": "../public/images/skills/adobexd.png",
+    "imageUrl": "/images/adobexd.png",
     "name": "Adobe Xd"
   },
   {
-    "imageUrl": "../public/images/skills/Archicad.png",
+    "imageUrl": "/images/Archicad.png",
     "name": "ArchiCAD"
   },
   {
-    "imageUrl": "../public/images/skills/bootstrap.png",
+    "imageUrl": "/images/bootstrap.png",
     "name": "Bootstrap"
   },
   {
-    "imageUrl": "../public/images/skills/cinema4d.jpg",
+    "imageUrl": "/images/cinema4d.jpg",
     "name": "Cinema 4D"
   },
   {
-    "imageUrl": "../public/images/skills/codesandbox.png",
+    "imageUrl": "/images/codesandbox.png",
     "name": "Codesandbox"
   },
   {
-    "imageUrl": "../public/images/skills/css.png",
+    "imageUrl": "/images/css.png",
     "name": "CSS3"
   },
   {
-    "imageUrl": "../public/images/skills/es6.png",
+    "imageUrl": "/images/es6.png",
     "name": "ECMAScript6"
   },
   {
-    "imageUrl": "../public/images/skills/figma.png",
+    "imageUrl": "/images/figma.png",
     "name": "Figma"
   },
   {
-    "imageUrl": "../public/images/skills/git.png",
+    "imageUrl": "/images/git.png",
     "name": "Git"
   },
   {
-    "imageUrl": "../public/images/skills/github.png",
+    "imageUrl": "/images/github.png",
     "name": "Github"
   },
   {
-    "imageUrl": "../public/images/skills/google.png",
+    "imageUrl": "/images/google.png",
     "name": "HowToGoogleThings"
   },
   {
-    "imageUrl": "../public/images/skills/heroku.png",
+    "imageUrl": "/images/heroku.png",
     "name": "Heroku"
   },
   {
-    "imageUrl": "../public/images/skills/html.png",
+    "imageUrl": "/images/html.png",
     "name": "HTML5"
   },
   {
-    "imageUrl": "../public/images/skills/illustrator.png",
+    "imageUrl": "/images/illustrator.png",
     "name": "Illustrator"
   },
   {
-    "imageUrl": "../public/images/skills/Indesign.png",
+    "imageUrl": "/images/Indesign.png",
     "name": "Indesign"
   },
   {
-    "imageUrl": "../public/images/skills/javascript.png",
-    "name": "Javascript"
+    "imageUrl": "/images/javascript.png",
+    "name": "Javascript",
+    "rows": 2,
+    "cols": 2
   },
   {
-    "imageUrl": "../public/images/skills/jest.png",
+    "imageUrl": "/images/jest.png",
     "name": "Jest"
   },
   {
-    "imageUrl": "../public/images/skills/materialize.png",
+    "imageUrl": "/images/materialize.png",
     "name": "Materialize"
   },
   {
-    "imageUrl": "../public/images/skills/mdn.png",
+    "imageUrl": "/images/mdn.png",
     "name": "MDN Webdocs"
   },
   {
-    "imageUrl": "../public/images/skills/nodejs.png",
+    "imageUrl": "/images/nodejs.png",
     "name": "Node.js"
   },
   {
-    "imageUrl": "../public/images/skills/npm.png",
+    "imageUrl": "/images/npm.png",
     "name": "npm"
   },
   {
-    "imageUrl": "../public/images/skills/parceljs.png",
+    "imageUrl": "/images/parceljs.png",
     "name": "Parcel.js"
   },
   {
-    "imageUrl": "../public/images/skills/photoshop.png",
+    "imageUrl": "/images/photoshop.png",
     "name": "Photoshop"
   },
   {
-    "imageUrl": "../public/images/skills/postgresql.png",
+    "imageUrl": "/images/postgresql.png",
     "name": "PostgreSQL"
   },
   {
-    "imageUrl": "../public/images/skills/postman.png",
+    "imageUrl": "/images/postman.png",
     "name": "Postman"
   },
   {
-    "imageUrl": "../public/images/skills/Procreate.png",
+    "imageUrl": "/images/Procreate.png",
     "name": "Procreate"
   },
   {
-    "imageUrl": "../public/images/skills/Reactjs.png",
+    "imageUrl": "/images/Reactjs.png",
     "name": "React.js"
   },
   {
-    "imageUrl": "../public/images/skills/repl.png",
+    "imageUrl": "/images/repl.png",
     "name": "Repl.it"
   },
   {
-    "imageUrl": "../public/images/skills/responsive-design.png",
+    "imageUrl": "/images/responsive-design.png",
     "name": "Responsive Design"
   },
   {
-    "imageUrl": "../public/images/skills/Sass.png",
+    "imageUrl": "/images/Sass.png",
     "name": "Sass"
   },
   {
-    "imageUrl": "../public/images/skills/sketchup.png",
+    "imageUrl": "/images/sketchup.png",
     "name": "Sketchup"
   },
   {
-    "imageUrl": "../public/images/skills/tachyons.png",
+    "imageUrl": "/images/tachyons.png",
     "name": "Tachyons"
   },
   {
-    "imageUrl": "../public/images/skills/trello.png",
+    "imageUrl": "/images/trello.png",
     "name": "Trello"
   },
   {
-    "imageUrl": "../public/images/skills/twinmotion.png",
+    "imageUrl": "/images/twinmotion.png",
     "name": "Twinmotion"
   },
   {
-    "imageUrl": "../public/images/skills/vscode.png",
+    "imageUrl": "/images/vscode.png",
     "name": "VS Code"
   }
 ]
