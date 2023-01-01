@@ -1,0 +1,27 @@
+[
+  {
+    "key": "E-mail",
+    "component": "<EmailIcon key='mail' />",
+    "url": "NEXT_PUBLIC_MAIL"
+  },
+  {
+    "key": "LinkedIn",
+    "component": "<LinkedInIcon key='linkedin' />",
+    "url": "NEXT_PUBLIC_LINKEDIN"
+  },
+  {
+    "key": "Github",
+    "component": "<GitHubIcon key='github' />",
+    "url": "NEXT_PUBLIC_GITHUB"
+  },
+  {
+    "key": "Twitter",
+    "component": "<TwitterIcon key='twitter' />",
+    "url": "NEXT_PUBLIC_TWITTER"
+  },
+  {
+    "key": "Instagram",
+    "component": "<InstagramIcon key='instagram' />",
+    "url": "NEXT_PUBLIC_INSTAGRAM"
+  }
+]

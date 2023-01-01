@@ -10,41 +10,43 @@ import {
 } from '@mui/material';
 import Image from 'next/image';
 import ProfilePic1 from '/public/images/profile_1.jpeg';
-import EmailIcon from '@mui/icons-material/Email';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import ContactList from './ContactList'
+
+// import EmailIcon from '@mui/icons-material/Email';
+// import LinkedInIcon from '@mui/icons-material/LinkedIn';
+// import GitHubIcon from '@mui/icons-material/GitHub';
+// import TwitterIcon from '@mui/icons-material/Twitter';
+// import InstagramIcon from '@mui/icons-material/Instagram';
+
+// const contactList = [
+//   {
+//     key: 'E-mail',
+//     component: <EmailIcon key='mail' />,
+//     url: process.env.NEXT_PUBLIC_MAIL as string
+//   },
+//   {
+//     key: 'LinkedIn',
+//     component: <LinkedInIcon key='linkedin' />,
+//     url: process.env.NEXT_PUBLIC_LINKEDIN as string
+//   },
+//   {
+//     key: 'Github',
+//     component: <GitHubIcon key='github' />,
+//     url: process.env.NEXT_PUBLIC_GITHUB as string
+//   },
+//   {
+//     key: 'Twitter',
+//     component: <TwitterIcon key='twitter' />,
+//     url: process.env.NEXT_PUBLIC_TWITTER as string
+//   },
+//   {
+//     key: 'Instagram',
+//     component: <InstagramIcon key='instagram' />,
+//     url: process.env.NEXT_PUBLIC_INSTAGRAM as string
+//   }
+// ];
 
 const About = () => {
-  const contactList = [
-    {
-      key: 'E-mail',
-      component: <EmailIcon key='mail' />,
-      url: process.env.NEXT_PUBLIC_MAIL as string
-    },
-    {
-      key: 'LinkedIn',
-      component: <LinkedInIcon key='linkedin' />,
-      url: process.env.NEXT_PUBLIC_LINKEDIN as string
-    },
-    {
-      key: 'Github',
-      component: <GitHubIcon key='github' />,
-      url: process.env.NEXT_PUBLIC_GITHUB as string
-    },
-    {
-      key: 'Twitter',
-      component: <TwitterIcon key='twitter' />,
-      url: process.env.NEXT_PUBLIC_TWITTER as string
-    },
-    {
-      key: 'Instagram',
-      component: <InstagramIcon key='instagram' />,
-      url: process.env.NEXT_PUBLIC_INSTAGRAM as string
-    }
-  ];
-
   return (
     <Container maxWidth='md' className='md:px-0'>
       <Card className='text-justify shadow-xl rounded-xl sm:flex sm:flex-row-reverse '>
@@ -92,7 +94,8 @@ const About = () => {
             </Typography>
           </CardContent>
           <CardActions className='justify-center max-sm:mb-4'>
-            {contactList.map((item) => (
+            <ContactList />
+            {/* {contactList.map((item) => (
               <IconButton
                 key={item.key}
                 title={item.key}
@@ -104,7 +107,7 @@ const About = () => {
               >
                 {item.component}
               </IconButton>
-            ))}
+            ))} */}
           </CardActions>
         </div>
       </Card>

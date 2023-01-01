@@ -32,6 +32,9 @@ const ProjectList = () => {
           </Grid>
           <Grid xs={12} sm={6} md={4}>
             <ProjectCard />
+          </Grid>{' '}
+          <Grid xs={12} sm={6} md={4}>
+            <ProjectCard />
           </Grid>
         </Grid>
       </Container>
