@@ -1,0 +1,146 @@
+[
+  {
+    "imageUrl": "../public/images/skills/3dsmax.png",
+    "name": "3ds Max"
+  },
+  {
+    "imageUrl": "../public/images/skills/adobexd.png",
+    "name": "Adobe Xd"
+  },
+  {
+    "imageUrl": "../public/images/skills/Archicad.png",
+    "name": "ArchiCAD"
+  },
+  {
+    "imageUrl": "../public/images/skills/bootstrap.png",
+    "name": "Bootstrap"
+  },
+  {
+    "imageUrl": "../public/images/skills/cinema4d.jpg",
+    "name": "Cinema 4D"
+  },
+  {
+    "imageUrl": "../public/images/skills/codesandbox.png",
+    "name": "Codesandbox"
+  },
+  {
+    "imageUrl": "../public/images/skills/css.png",
+    "name": "CSS3"
+  },
+  {
+    "imageUrl": "../public/images/skills/es6.png",
+    "name": "ECMAScript6"
+  },
+  {
+    "imageUrl": "../public/images/skills/figma.png",
+    "name": "Figma"
+  },
+  {
+    "imageUrl": "../public/images/skills/git.png",
+    "name": "Git"
+  },
+  {
+    "imageUrl": "../public/images/skills/github.png",
+    "name": "Github"
+  },
+  {
+    "imageUrl": "../public/images/skills/google.png",
+    "name": "HowToGoogleThings"
+  },
+  {
+    "imageUrl": "../public/images/skills/heroku.png",
+    "name": "Heroku"
+  },
+  {
+    "imageUrl": "../public/images/skills/html.png",
+    "name": "HTML5"
+  },
+  {
+    "imageUrl": "../public/images/skills/illustrator.png",
+    "name": "Illustrator"
+  },
+  {
+    "imageUrl": "../public/images/skills/Indesign.png",
+    "name": "Indesign"
+  },
+  {
+    "imageUrl": "../public/images/skills/javascript.png",
+    "name": "Javascript"
+  },
+  {
+    "imageUrl": "../public/images/skills/jest.png",
+    "name": "Jest"
+  },
+  {
+    "imageUrl": "../public/images/skills/materialize.png",
+    "name": "Materialize"
+  },
+  {
+    "imageUrl": "../public/images/skills/mdn.png",
+    "name": "MDN Webdocs"
+  },
+  {
+    "imageUrl": "../public/images/skills/nodejs.png",
+    "name": "Node.js"
+  },
+  {
+    "imageUrl": "../public/images/skills/npm.png",
+    "name": "npm"
+  },
+  {
+    "imageUrl": "../public/images/skills/parceljs.png",
+    "name": "Parcel.js"
+  },
+  {
+    "imageUrl": "../public/images/skills/photoshop.png",
+    "name": "Photoshop"
+  },
+  {
+    "imageUrl": "../public/images/skills/postgresql.png",
+    "name": "PostgreSQL"
+  },
+  {
+    "imageUrl": "../public/images/skills/postman.png",
+    "name": "Postman"
+  },
+  {
+    "imageUrl": "../public/images/skills/Procreate.png",
+    "name": "Procreate"
+  },
+  {
+    "imageUrl": "../public/images/skills/Reactjs.png",
+    "name": "React.js"
+  },
+  {
+    "imageUrl": "../public/images/skills/repl.png",
+    "name": "Repl.it"
+  },
+  {
+    "imageUrl": "../public/images/skills/responsive-design.png",
+    "name": "Responsive Design"
+  },
+  {
+    "imageUrl": "../public/images/skills/Sass.png",
+    "name": "Sass"
+  },
+  {
+    "imageUrl": "../public/images/skills/sketchup.png",
+    "name": "Sketchup"
+  },
+  {
+    "imageUrl": "../public/images/skills/tachyons.png",
+    "name": "Tachyons"
+  },
+  {
+    "imageUrl": "../public/images/skills/trello.png",
+    "name": "Trello"
+  },
+  {
+    "imageUrl": "../public/images/skills/twinmotion.png",
+    "name": "Twinmotion"
+  },
+  {
+    "imageUrl": "../public/images/skills/vscode.png",
+    "name": "VS Code"
+  }
+]
