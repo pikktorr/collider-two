@@ -4,6 +4,9 @@ import Header from '../components/Header';
 import Banner from '../components/Banner';
 import About from '../components/About';
 import ProjectList from '../components/ProjectList';
+import Gallery from '../components/Gallery';
+import Skills from '../components/Skills';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -19,6 +22,9 @@ export default function Home() {
         <Banner />
         <About />
         <ProjectList />
+        <Gallery />
+        <Skills />
+        <Footer />
       </main>
     </>
   );

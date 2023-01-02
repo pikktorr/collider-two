@@ -1,0 +1,147 @@
+[
+  {
+    "imageUrl": "/images/3dsmax.png",
+    "name": "3ds Max"  },
+  {
+    "imageUrl": "/images/adobexd.png",
+    "name": "Adobe Xd"
+  },
+  {
+    "imageUrl": "/images/Archicad.png",
+    "name": "ArchiCAD"
+  },
+  {
+    "imageUrl": "/images/bootstrap.png",
+    "name": "Bootstrap"
+  },
+  {
+    "imageUrl": "/images/cinema4d.jpg",
+    "name": "Cinema 4D"
+  },
+  {
+    "imageUrl": "/images/codesandbox.png",
+    "name": "Codesandbox"
+  },
+  {
+    "imageUrl": "/images/css.png",
+    "name": "CSS3"
+  },
+  {
+    "imageUrl": "/images/es6.png",
+    "name": "ECMAScript6"
+  },
+  {
+    "imageUrl": "/images/figma.png",
+    "name": "Figma"
+  },
+  {
+    "imageUrl": "/images/git.png",
+    "name": "Git"
+  },
+  {
+    "imageUrl": "/images/github.png",
+    "name": "Github"
+  },
+  {
+    "imageUrl": "/images/google.png",
+    "name": "HowToGoogleThings"
+  },
+  {
+    "imageUrl": "/images/heroku.png",
+    "name": "Heroku"
+  },
+  {
+    "imageUrl": "/images/html.png",
+    "name": "HTML5"
+  },
+  {
+    "imageUrl": "/images/illustrator.png",
+    "name": "Illustrator"
+  },
+  {
+    "imageUrl": "/images/Indesign.png",
+    "name": "Indesign"
+  },
+  {
+    "imageUrl": "/images/javascript.png",
+    "name": "Javascript",
+    "rows": 2,
+    "cols": 2
+  },
+  {
+    "imageUrl": "/images/jest.png",
+    "name": "Jest"
+  },
+  {
+    "imageUrl": "/images/materialize.png",
+    "name": "Materialize"
+  },
+  {
+    "imageUrl": "/images/mdn.png",
+    "name": "MDN Webdocs"
+  },
+  {
+    "imageUrl": "/images/nodejs.png",
+    "name": "Node.js"
+  },
+  {
+    "imageUrl": "/images/npm.png",
+    "name": "npm"
+  },
+  {
+    "imageUrl": "/images/parceljs.png",
+    "name": "Parcel.js"
+  },
+  {
+    "imageUrl": "/images/photoshop.png",
+    "name": "Photoshop"
+  },
+  {
+    "imageUrl": "/images/postgresql.png",
+    "name": "PostgreSQL"
+  },
+  {
+    "imageUrl": "/images/postman.png",
+    "name": "Postman"
+  },
+  {
+    "imageUrl": "/images/Procreate.png",
+    "name": "Procreate"
+  },
+  {
+    "imageUrl": "/images/Reactjs.png",
+    "name": "React.js"
+  },
+  {
+    "imageUrl": "/images/repl.png",
+    "name": "Repl.it"
+  },
+  {
+    "imageUrl": "/images/responsive-design.png",
+    "name": "Responsive Design"
+  },
+  {
+    "imageUrl": "/images/Sass.png",
+    "name": "Sass"
+  },
+  {
+    "imageUrl": "/images/sketchup.png",
+    "name": "Sketchup"
+  },
+  {
+    "imageUrl": "/images/tachyons.png",
+    "name": "Tachyons"
+  },
+  {
+    "imageUrl": "/images/trello.png",
+    "name": "Trello"
+  },
+  {
+    "imageUrl": "/images/twinmotion.png",
+    "name": "Twinmotion"
+  },
+  {
+    "imageUrl": "/images/vscode.png",
+    "name": "VS Code"
+  }
+]

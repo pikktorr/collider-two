@@ -7,12 +7,15 @@ const Banner = () => {
   const handleImageTap = () => console.log('tap tap tap');
 
   return (
-    <Container maxWidth='md' className='max-sm:h-[100vh]'>
+    <Container
+      maxWidth='md'
+      className='max-sm:h-[98vh] sm:h-[95vh] flex justify-center items-center'
+    >
       <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
         <div
           onClick={handleImageTap}
           className={
-            'my-20 mx-auto w-2/3 rounded-full max-sm:animate-pulse max-sm:overflow-hidden max-sm:bg-white max-sm:p-2 max-sm:shadow-lg sm:pointer-events-none'
+            'mx-auto w-98 sm:w-3/4  rounded-full max-sm:animate-pulse max-sm:overflow-hidden max-sm:bg-white max-sm:p-2 max-sm:shadow-lg sm:pointer-events-none'
           }
         >
           <Image

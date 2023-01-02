@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Freaky Vegan",
+    "tool": "React.js, Redux, Firebase, Stripe",
+    "about": "Search for vegan cafes and restaurants, order ingredients, cakes and meals.",
+    "image": "../images/projects/pumpkin-cupcake.jpg",
+    "url": "https://freaky-vegan.herokuapp.com/"
+  },
+  {
+    "title": "Smart-Brainer",
+    "tool": "React.js, PostgreSQL",
+    "about": "This application detects faces on pasted images. Can use with any fictional email addresses!",
+    "image": "../images/projects/smartbrainer_small.jpg",
+    "url": "https://smart-brainer-by-pikktorr.herokuapp.com/"
+  },
+  {
+    "title": "Horsie Chess Board",
+    "tool": "Javascript, HTML, CSS",
+    "about": "Place down your Knight on the chess board and see how many moves you have, where to move from that field.",
+    "image": "../images/projects/chess-small.png",
+    "url": "https://pikktorr.github.io/horsie-chess-board/"
+  },
+  {
+    "title": "Can't Do It All",
+    "tool": "Javascript, HTML, CSS, Materialize",
+    "about": "One have to choose between coding, social life and sleeping. Can't do it all... especially nowadays.",
+    "image": "../images/projects/cant-do-it-all-2.jpg",
+    "url": "https://pikktorr.github.io/cant-do-it-all/"
+  },
+  {
+    "title": "Animal Crossing: New Horizons",
+    "tool": "React.js",
+    "about": "Search villagers from the new Nintendo game Animal Crossing: New Horizons through a free API.",
+    "image": "../images/projects/animal_crossing_small.png",
+    "url": "https://pikktorr.github.io/animal-crossing-new-horizons/"
+  },
+  {
+    "title": "Breaking Text",
+    "tool": "Javascript, HTML, CSS, Materialize",
+    "about": "Write or insert text into the input field, then brake lines at the given number.",
+    "image": "../images/projects/breaking-text-small.jpg",
+    "url": "https://pikktorr.github.io/breaking-text/"
+  },
+  {
+    "title": "Infinite Carousel",
+    "tool": "JavaScript, HTML, CSS",
+    "about": "A vanilla javascript infinite carousel with my favourite music albums. Alt-J, Beck, John Coffey, Portugal the Man, Radiohead, etc.",
+    "image": "../images/projects/carousel_small.png",
+    "url": "https://pikktorr.github.io/vanilla-carousel/"
+  },
+  {
+    "title": "Jester Tester",
+    "tool": "JavaScript, Jest",
+    "about": "Basic functions testing.",
+    "image": "../images/projects/testing.png",
+    "url": "https://repl.it/@pikktorr/jest-playground"
+  },
+  {
+    "title": "Array Implementation",
+    "tool": "JavaScript",
+    "about": "Array practice: create an array from scratch, with constructors, methods.",
+    "image": "../images/projects/array-implementation.png",
+    "url": "https://repl.it/@pikktorr/array-implementation"
+  },
+  {
+    "title": "Comparing Arrays",
+    "tool": "JavaScript",
+    "about": "Array practice: compare two arrays with 'O(a+b' time complexity.",
+    "image": "../images/projects/comparing-arrays.png",
+    "url": "https://repl.it/@pikktorr/contains-common-item"
+  },
+  {
+    "title": "The Shopping List",
+    "tool": "JavaScript, HTML, CSS",
+    "about": "A simple, mandatory shopping list with random colored item backgrounds. Everything you need!",
+    "image": "../images/projects/shopping_small.jpg",
+    "url": "https://pikktorr.github.io/shopping-list.github.io/"
+  },
+  {
+    "title": "UX/UI Portfolio Design",
+    "tool": "Adobe XD",
+    "about": "A mobile portfolio design from hand drawn sketches to wireframes to prototype preview.",
+    "image": "../images/projects/ux_ui_small.png",
+    "url": "https://xd.adobe.com/view/f7600bf5-e88a-4c24-4472-e9ecc2d04c0c-8151/?fullscreen"
+  }
+]

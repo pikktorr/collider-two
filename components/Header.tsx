@@ -1,4 +1,3 @@
-import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -15,7 +14,7 @@ import Tilt from 'react-parallax-tilt';
 
 const pages = ['About', 'Projects', 'Gallery', 'Skills'];
 
-function Header() {
+const Header =() => {
   return (
     <Container maxWidth='lg' className='max-sm:hidden'>
         <AppBar position='static' className='bg-white rounded-full shadow-xl'>
