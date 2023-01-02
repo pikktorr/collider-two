@@ -1,13 +1,17 @@
 import { Container, Typography } from '@mui/material';
 import Grid from '@mui/material/Unstable_Grid2';
 import ProjectCard from './ProjectCard';
+import projects from '../json/projects.json';
 
 const ProjectList = () => {
   return (
     <>
-      <Container maxWidth='md' className='mt-20'>
+      <Container
+        maxWidth='md'
+        className='mt-20 '
+        id='projects-section'
+      >
         <Typography
-          id='projects-section'
           gutterBottom
           variant='h5'
           component='div'
@@ -16,26 +20,15 @@ const ProjectList = () => {
           Projects
         </Typography>
       </Container>
-      <Container maxWidth='lg' className='mt-10'>
+      <Container maxWidth='lg' className='mt-10 bg-[url("/public/images/collider_logo.svg")]'>
         <Grid container spacing={4}>
-          <Grid xs={12} sm={6} md={4}>
-            <ProjectCard />
-          </Grid>
-          <Grid xs={12} sm={6} md={4}>
-            <ProjectCard />
-          </Grid>
-          <Grid xs={12} sm={6} md={4}>
-            <ProjectCard />
-          </Grid>
-          <Grid xs={12} sm={6} md={4}>
-            <ProjectCard />
-          </Grid>
-          <Grid xs={12} sm={6} md={4}>
-            <ProjectCard />
-          </Grid>{' '}
-          <Grid xs={12} sm={6} md={4}>
-            <ProjectCard />
-          </Grid>
+          {projects.map((project, index) => {
+            return (
+              <Grid xs={12} sm={6} md={4} key={index} className='h-[inherit]'>
+                <ProjectCard project={project} />
+              </Grid>
+            );
+          })}
         </Grid>
       </Container>
     </>

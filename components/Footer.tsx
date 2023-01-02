@@ -5,8 +5,9 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Image from 'next/image';
 import LogoNamed from '/public/images/collider_logo_named.png';
-import LogoBW from '/public/images/collider_logo_bw.png';
+import Logo from '/public/images/collider_logo.png';
 import ContactList from './ContactList';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -23,24 +24,12 @@ const Footer = () => {
           <div>
             <ContactList />
           </div>
-          <Image
-            src={LogoNamed}
-            alt='alt'
-            width={130}
-            aria-label='account of current user'
-            aria-controls='menu-appbar'
-            aria-haspopup='true'
-            className='max-sm:hidden'
-          />
-          <Image
-            src={LogoBW}
-            alt='alt'
-            width={48}
-            aria-label='account of current user'
-            aria-controls='menu-appbar'
-            aria-haspopup='true'
-            className='sm:hidden'
-          />
+          <Link href='#__next' className='max-sm:hidden pointer-cursor'>
+            <Image src={LogoNamed} alt='alt' width={130} />
+          </Link>
+          <Link href='#__next' className='sm:hidden pointer-cursor'>
+            <Image src={Logo} alt='alt' width={48} />
+          </Link>
         </Toolbar>
       </AppBar>
     </Container>

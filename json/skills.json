@@ -1,13 +1,10 @@
 [
   {
-    "imageUrl": "/images/3dsmax.png",
-    "name": "3ds Max"  },
-  {
     "imageUrl": "/images/adobexd.png",
     "name": "Adobe Xd"
   },
   {
-    "imageUrl": "/images/Archicad.png",
+    "imageUrl": "/images/archicad.png",
     "name": "ArchiCAD"
   },
   {
@@ -15,20 +12,16 @@
     "name": "Bootstrap"
   },
   {
-    "imageUrl": "/images/cinema4d.jpg",
-    "name": "Cinema 4D"
-  },
-  {
-    "imageUrl": "/images/codesandbox.png",
-    "name": "Codesandbox"
+    "imageUrl": "/images/commandline.png",
+    "name": "Commandline"
   },
   {
     "imageUrl": "/images/css.png",
     "name": "CSS3"
   },
   {
-    "imageUrl": "/images/es6.png",
-    "name": "ECMAScript6"
+    "imageUrl": "/images/vue.png",
+    "name": "Vue.js"
   },
   {
     "imageUrl": "/images/figma.png",
@@ -47,16 +40,8 @@
     "name": "HowToGoogleThings"
   },
   {
-    "imageUrl": "/images/heroku.png",
-    "name": "Heroku"
-  },
-  {
     "imageUrl": "/images/html.png",
     "name": "HTML5"
-  },
-  {
-    "imageUrl": "/images/illustrator.png",
-    "name": "Illustrator"
   },
   {
     "imageUrl": "/images/Indesign.png",
@@ -64,17 +49,15 @@
   },
   {
     "imageUrl": "/images/javascript.png",
-    "name": "Javascript",
-    "rows": 2,
-    "cols": 2
+    "name": "Javascript"
   },
   {
-    "imageUrl": "/images/jest.png",
-    "name": "Jest"
+    "imageUrl": "/images/typescript.png",
+    "name": "Typescript"
   },
   {
     "imageUrl": "/images/materialize.png",
-    "name": "Materialize"
+    "name": "Material UI"
   },
   {
     "imageUrl": "/images/mdn.png",
@@ -89,59 +72,83 @@
     "name": "npm"
   },
   {
-    "imageUrl": "/images/parceljs.png",
-    "name": "Parcel.js"
+    "imageUrl": "/images/yarn.png",
+    "name": "yarn"
   },
   {
-    "imageUrl": "/images/photoshop.png",
+    "imageUrl": "/images/ps.png",
     "name": "Photoshop"
   },
   {
-    "imageUrl": "/images/postgresql.png",
-    "name": "PostgreSQL"
+    "imageUrl": "/images/pma.png",
+    "name": "phpMyAdmin"
   },
   {
     "imageUrl": "/images/postman.png",
     "name": "Postman"
   },
   {
-    "imageUrl": "/images/Procreate.png",
+    "imageUrl": "/images/procreate.png",
     "name": "Procreate"
   },
   {
-    "imageUrl": "/images/Reactjs.png",
+    "imageUrl": "/images/react.png",
     "name": "React.js"
   },
   {
-    "imageUrl": "/images/repl.png",
-    "name": "Repl.it"
+    "imageUrl": "/images/pinia.png",
+    "name": "Pinia"
+  },
+  {
+    "imageUrl": "/images/redux.png",
+    "name": "Redux"
   },
   {
     "imageUrl": "/images/responsive-design.png",
     "name": "Responsive Design"
   },
   {
-    "imageUrl": "/images/Sass.png",
+    "imageUrl": "/images/sass.png",
     "name": "Sass"
   },
   {
-    "imageUrl": "/images/sketchup.png",
-    "name": "Sketchup"
-  },
-  {
-    "imageUrl": "/images/tachyons.png",
-    "name": "Tachyons"
+    "imageUrl": "/images/tailwind.png",
+    "name": "Tailwind CSS"
   },
   {
     "imageUrl": "/images/trello.png",
     "name": "Trello"
   },
   {
-    "imageUrl": "/images/twinmotion.png",
-    "name": "Twinmotion"
-  },
-  {
     "imageUrl": "/images/vscode.png",
     "name": "VS Code"
+  },
+  {
+    "imageUrl": "/images/docker.png",
+    "name": "Docker"
+  },
+  {
+    "imageUrl": "/images/gitlab.png",
+    "name": "Gitlab"
+  },
+  {
+    "imageUrl": "/images/insomnia.png",
+    "name": "Insomnia"
+  },
+  {
+    "imageUrl": "/images/jira.png",
+    "name": "Jira"
+  },
+  {
+    "imageUrl": "/images/mui.png",
+    "name": "Material UI"
+  },
+  {
+    "imageUrl": "/images/nextjs.png",
+    "name": "Next.js"
+  },
+  {
+    "imageUrl": "/images/phpstorm.png",
+    "name": "PhpStorm"
   }
 ]

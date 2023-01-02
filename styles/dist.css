@@ -555,12 +555,16 @@ video {
   position: absolute;
 }
 
-#__next .top-1\/2 {
-  top: 50%;
+#__next .relative {
+  position: relative;
 }
 
 #__next .left-1\/2 {
   left: 50%;
+}
+
+#__next .top-1\/2 {
+  top: 50%;
 }
 
 #__next .bottom-0 {
@@ -574,6 +578,16 @@ video {
 #__next .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+#__next .my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#__next .my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 #__next .mb-4 {
@@ -608,6 +622,10 @@ video {
   height: 200px;
 }
 
+#__next .h-\[inherit\] {
+  height: inherit;
+}
+
 #__next .h-\[300px\] {
   height: 300px;
 }
@@ -628,6 +646,24 @@ video {
 
 #__next .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+@keyframes collide {
+  0% {
+    transform: rotate(0) scale(0.8);
+  }
+
+  50% {
+    transform: rotate(180deg) scale(1.2);
+  }
+
+  100% {
+    transform: rotate(360deg) scale(0.8);
+  }
+}
+
+#__next .animate-\[collide_15s_linear_infinite\] {
+  animation: collide 15s linear infinite;
 }
 
 #__next .cursor-pointer {
@@ -675,6 +711,10 @@ video {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
+#__next .bg-\[url\(\"\/public\/images\/collider_logo\.svg\"\)\] {
+  background-image: url("/public/images/collider_logo.svg");
+}
+
 #__next .from-blue-100 {
   --tw-gradient-from: #dbeafe;
   --tw-gradient-to: rgb(219 234 254 / 0);
@@ -697,6 +737,11 @@ video {
 
 #__next .fill-white {
   fill: #fff;
+}
+
+#__next .object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 #__next .object-cover {
@@ -795,9 +840,15 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
-#__next .drop-shadow-\[0_10px_10px_rgba\(0\2c 0\2c 0\2c 0\.25\)\] {
-  --tw-drop-shadow: drop-shadow(0 10px 10px rgba(0,0,0,0.25));
+#__next .blur {
+  --tw-blur: blur(8px);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+#__next .transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 #__next .transition-all {
@@ -806,8 +857,16 @@ video {
   transition-duration: 150ms;
 }
 
+#__next .duration-200 {
+  transition-duration: 200ms;
+}
+
 #__next .duration-300 {
   transition-duration: 300ms;
+}
+
+#__next .duration-500 {
+  transition-duration: 500ms;
 }
 
 #__next .ease-in-out {
@@ -977,6 +1036,11 @@ a {
     overflow: hidden;
   }
 
+  #__next .max-sm\:border-pink-500 {
+    --tw-border-opacity: 1;
+    border-color: rgb(236 72 153 / var(--tw-border-opacity));
+  }
+
   #__next .max-sm\:bg-white {
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -986,18 +1050,19 @@ a {
     padding: 0.5rem;
   }
 
-  #__next .max-sm\:shadow-lg {
-    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  #__next .max-sm\:shadow-2xl {
+    --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+
+  #__next .max-sm\:shadow-sky-800 {
+    --tw-shadow-color: #075985;
+    --tw-shadow: var(--tw-shadow-colored);
   }
 }
 
 @media (min-width: 640px) {
-  #__next .sm\:pointer-events-none {
-    pointer-events: none;
-  }
-
   #__next .sm\:flex {
     display: flex;
   }
@@ -1052,6 +1117,12 @@ a {
 
   #__next .sm\:p-8 {
     padding: 2rem;
+  }
+
+  #__next .sm\:hover\:scale-110:hover {
+    --tw-scale-x: 1.1;
+    --tw-scale-y: 1.1;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 }
 
