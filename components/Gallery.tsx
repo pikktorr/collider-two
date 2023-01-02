@@ -26,7 +26,7 @@ const Gallery = () => {
 
   return (
     <>
-      <Container maxWidth='md' className='mt-20'>
+      <Container maxWidth='md' className='mt-20' id='gallery-section'>
         <Typography
           id='projects-section'
           gutterBottom

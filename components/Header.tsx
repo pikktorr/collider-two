@@ -1,3 +1,4 @@
+import {useState} from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -9,24 +10,31 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import Image from 'next/image';
+import Link from 'next/link';
 import LogoNamed from '/public/images/collider_logo_named.png';
+import LogoNamedBW from '/public/images/collider_logo_named_bw.png';
 import Tilt from 'react-parallax-tilt';
 
 const pages = ['About', 'Projects', 'Gallery', 'Skills'];
 
 const Header =() => {
+  const [logoHover, setLogoHover] = useState(false);
+  
   return (
-    <Container maxWidth='lg' className='max-sm:hidden'>
+    <Container maxWidth='lg' className='max-sm:hidden' id='header-section'>
         <AppBar position='static' className='bg-white rounded-full shadow-xl'>
           <Toolbar className='justify-between px-4'>
             <div className='flex flex-row'>
               <Image
-                src={LogoNamed}
+                src={logoHover ? LogoNamed : LogoNamedBW}
                 alt='alt'
                 width={130}
                 aria-label='account of current user'
                 aria-controls='menu-appbar'
                 aria-haspopup='true'
+                onMouseEnter={()=>setLogoHover(true)}
+                onMouseLeave={()=>setLogoHover(false)}
+                className='transition-all duration-500 ease-in-out'
               />
               {/* <Menu
                 id='menu-appbar'
@@ -69,12 +77,14 @@ const Header =() => {
 
             <div>
               {pages.map((page) => (
+                <Link href={`#${page.toLowerCase()}-section`} key={page}>
                 <Button
                   key={page}
                   className='px-3 font-mono font-medium transition-all duration-300 ease-in-out rounded-full text-slate-700 hover:text-slate-50 hover:bg-gradient-to-r from-pink-500 to-indigo-700'
-                >
+                  >
                   {page}
                 </Button>
+                  </Link>
               ))}
             </div>
           </Toolbar>

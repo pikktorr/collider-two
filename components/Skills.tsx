@@ -18,7 +18,7 @@ import skills from '../json/skills.json';
 const Skills = () => {
   return (
     <>
-      <Container maxWidth='md' className='mt-20'>
+      <Container maxWidth='md' className='mt-20' id='skills-section'>
         <Typography
           id='projects-section'
           gutterBottom

@@ -52,14 +52,15 @@ const ImageDialog = ({ imageUrl, open, handleClose }: ImageDialogProps) => {
           maxHeight: '95vh',
           pointerEvents: 'none',
           overflow: 'hidden',
-          borderRadius: '10px',
-          width: 'max-content',
-          margin: '16px'
+          width: 'auto',
+          margin: '16px',
+          backgroundColor: 'transparent'
         }
       }}
       BackdropProps={{
         sx: {
-          backgroundColor: '#000000db'
+          backdropFilter: 'blur(40px)'
+          // backgroundColor: '#000000db'
         }
       }}
     >
@@ -71,7 +72,6 @@ const ImageDialog = ({ imageUrl, open, handleClose }: ImageDialogProps) => {
         style={{
           objectFit: 'contain',
           pointerEvents: 'all',
-          borderRadius: '10px',
           maxWidth: '100vw',
           maxHeight: '95vh'
         }}
