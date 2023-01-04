@@ -14,16 +14,9 @@ import {
   Typography,
   Paper
 } from '@mui/material';
-import { flexbox } from '@mui/system';
+import { ImageDialogProps } from '../interfaces/ImageDialogProps';
 
-export interface ImageDialogProps {
-  imageUrl: string;
-  open: boolean;
-  handleClose: () => void;
-}
 const ImageDialog = ({ imageUrl, open, handleClose }: ImageDialogProps) => {
-  console.log('imageulr', imageUrl);
-
   return (
     // <Modal
     //   open={open}
