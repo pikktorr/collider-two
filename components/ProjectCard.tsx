@@ -7,14 +7,14 @@ import { ProjectProps } from '../interfaces/ProjectProps';
 const ProjectCard = ({ project }: ProjectProps) => {
   return (
     <Tilt
-      tiltMaxAngleX={4}
-      tiltMaxAngleY={4}
+      tiltMaxAngleX={6}
+      tiltMaxAngleY={6}
       glareEnable
       glarePosition='top'
       glareReverse
-      glareMaxOpacity={0.3}
+      glareMaxOpacity={0.5}
     >
-      <Card className='flex flex-col h-[100%] text-justify shadow-xl cursor-pointer rounded-xl'>
+      <Card className='flex flex-col h-[100%] text-justify shadow-2xl shadow-sky-800/30 cursor-pointer rounded-xl'>
         <Image
           src={project.imageUrl}
           width={650}

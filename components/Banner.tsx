@@ -10,7 +10,7 @@ const Banner = () => {
   return (
     <Container
       maxWidth='md'
-      className='h-[92vh] flex justify-center items-center'
+      className='h-[98vh] flex justify-center items-center z-[-1]'
     >
       <Tilt
         tiltMaxAngleX={20}
@@ -22,13 +22,15 @@ const Banner = () => {
         <Grid
           onClick={handleImageTap}
           className={
-            'sm:hover:scale-110 transition-transform duration-200 ease-in-out relative mx-auto sm:w-3/4 rounded-full max-sm:animate-pulse max-sm:p-2'
+            'sm:hover:scale-110 transition-transform duration-200 ease-in-out relative mx-auto sm:w-3/4 rounded-full max-sm:p-2'
           }
         >
           <Image
             src={Logo}
             alt='alt'
             className='rounded-full animate-[collide_15s_linear_infinite]'
+            width={600}
+            height={600}
           />
         </Grid>
       </Tilt>
