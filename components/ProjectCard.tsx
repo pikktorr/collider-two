@@ -1,17 +1,8 @@
-import { Card, CardActions, CardContent, Typography } from '@mui/material';
+import { Card, CardActions, CardContent, Typography, Tooltip } from '@mui/material';
 import Image from 'next/image';
 import Tilt from 'react-parallax-tilt';
-import { projectIcons } from '../assets/projectIcons';
-
-export interface ProjectProps {
-  project: {
-    title: string;
-    tool: string[];
-    about: string;
-    imageUrl: string;
-    url: string;
-  };
-}
+import { projectIcons } from '../data/projectIcons';
+import { ProjectProps } from '../interfaces/ProjectProps';
 
 const ProjectCard = ({ project }: ProjectProps) => {
   return (
@@ -23,7 +14,7 @@ const ProjectCard = ({ project }: ProjectProps) => {
       glareReverse
       glareMaxOpacity={0.3}
     >
-      <Card className='text-justify shadow-xl cursor-pointer rounded-xl'>
+      <Card className='flex flex-col h-[100%] text-justify shadow-xl cursor-pointer rounded-xl'>
         <Image
           src={project.imageUrl}
           width={650}
@@ -49,17 +40,18 @@ const ProjectCard = ({ project }: ProjectProps) => {
             {project.about}
           </Typography>
         </CardContent>
-        <CardActions className='gap-2 px-8 pt-0 pb-8'>
+        <CardActions className='gap-2 px-8 pt-0 pb-8 mt-auto'>
           {project.tool.map((iconName) => {
             return (
-              <Image
-                src={projectIcons[iconName]}
-                alt={iconName}
-                title={iconName}
-                width={28}
-                height={28}
-                key={iconName}
-              />
+              <Tooltip title={iconName} key={iconName}>
+                <Image
+                  src={projectIcons[iconName]}
+                  alt={iconName}
+                  width={28}
+                  height={28}
+                  className='opacity-75'
+                  />
+              </Tooltip>
             );
           })}
         </CardActions>

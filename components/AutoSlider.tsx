@@ -8,15 +8,14 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 import skills from '../json/skills.json';
 import '@splidejs/splide/dist/css/splide.min.css';
+import { AutoSliderProps } from '../interfaces/AutoSliderProps';
 
-export interface AutoSliderProps {
-  perPage: number;
-  speed: number;
-  firstIndex: number;
-  lastIndex?: number;
-}
-
-const AutoSlider = ({ perPage, speed, firstIndex, lastIndex }: AutoSliderProps) => {
+const AutoSlider = ({
+  perPage,
+  speed,
+  firstIndex,
+  lastIndex
+}: AutoSliderProps) => {
   return (
     <Splide
       options={{
@@ -36,23 +35,21 @@ const AutoSlider = ({ perPage, speed, firstIndex, lastIndex }: AutoSliderProps) 
       extensions={{ AutoScroll }}
       className='my-8'
     >
-      {skills
-        .slice(firstIndex, lastIndex)
-        .map((skill) => {
-          return (
-            <SplideSlide key={skill.name} className='flex'>
-                <Tooltip title={skill.name}>
-                <Image
-                  src={skill.imageUrl}
-                  alt={skill.name}
-                  width={80}
-                  height={80}
-                  className='object-contain'
-                />
-                </Tooltip>
-              </SplideSlide>
-          );
-        })}
+      {skills.slice(firstIndex, lastIndex).map((skill) => {
+        return (
+          <SplideSlide key={skill.name} className='flex'>
+            <Tooltip title={skill.name}>
+              <Image
+                src={skill.imageUrl}
+                alt={skill.name}
+                width={80}
+                height={80}
+                className='object-contain'
+              />
+            </Tooltip>
+          </SplideSlide>
+        );
+      })}
     </Splide>
   );
 };

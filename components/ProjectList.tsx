@@ -26,7 +26,7 @@ const ProjectList = () => {
         <Grid container spacing={4}>
           {projects.map((project, index) => {
             return (
-              <Grid xs={12} sm={6} md={4} key={index} className='h-[inherit]'>
+              <Grid xs={12} sm={6} md={4} key={index} className='flex'>
                 <ProjectCard project={project} />
               </Grid>
             );
