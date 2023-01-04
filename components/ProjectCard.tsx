@@ -1,15 +1,12 @@
 import { Card, CardActions, CardContent, Typography } from '@mui/material';
 import Image from 'next/image';
 import Tilt from 'react-parallax-tilt';
-import NextjsIcon from '../public/icons/nextjs.svg';
-import ReactIcon from '../public/icons/react.svg';
-import StripeIcon from '../public/icons/stripe.svg';
-import SassIcon from '../public/icons/sass.svg';
+import { projectIcons } from '../assets/projectIcons';
 
 export interface ProjectProps {
   project: {
     title: string;
-    tool: string;
+    tool: string[];
     about: string;
     imageUrl: string;
     url: string;
@@ -25,16 +22,15 @@ const ProjectCard = ({ project }: ProjectProps) => {
       glarePosition='top'
       glareReverse
       glareMaxOpacity={0.3}
-      className='h-[inherit]'
     >
-      <Card className='text-justify shadow-xl cursor-pointer shadow-indigo-200 hover:shadow-fuchsia-200 rounded-xl'>
+      <Card className='text-justify shadow-xl cursor-pointer rounded-xl'>
         <Image
           src={project.imageUrl}
           width={650}
           height={300}
           alt={project.title}
           title={project.title}
-          className='object-cover object-center h-[300px]'
+          className='object-cover object-center'
         />
         <CardContent className='p-8'>
           <Typography
@@ -54,22 +50,18 @@ const ProjectCard = ({ project }: ProjectProps) => {
           </Typography>
         </CardContent>
         <CardActions className='gap-2 px-8 pt-0 pb-8'>
-          <Image
-            src={NextjsIcon}
-            alt='nextjs'
-            title='Next.js'
-            width={28}
-            className='opacity-75'
-          />
-          <Image src={ReactIcon} alt='react' title='React.js' width={28} />
-          <Image
-            src={StripeIcon}
-            alt='stripe'
-            title='Stripe'
-            width={28}
-            className='opacity-75'
-          />
-          <Image src={SassIcon} alt='sass' title='Sass' width={28} />
+          {project.tool.map((iconName) => {
+            return (
+              <Image
+                src={projectIcons[iconName]}
+                alt={iconName}
+                title={iconName}
+                width={28}
+                height={28}
+                key={iconName}
+              />
+            );
+          })}
         </CardActions>
       </Card>
     </Tilt>
