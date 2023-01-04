@@ -21,17 +21,16 @@ const Header = () => {
   const [dropdownMenu, setDropDownMenu] = useState(false);
 
   return (
-    <Container maxWidth='lg' id='header-section'>
-      {/* <AppBar position='static' className='bg-white rounded-full shadow-xl'> */}
+    <Container maxWidth='lg' id='header-section' className='absolute inset-x-0 z-10'>
       <Accordion
-        className='bg-white rounded-[32px] shadow-xl w-100 '
+        className='bg-white rounded-[32px] shadow-xl w-100 shadow-2xl shadow-sky-800/30'
         expanded={dropdownMenu}
       >
         <Toolbar className='justify-between px-4 h-[64px]'>
           <Grid>
             <Image
               src={logoHover ? LogoNamed : LogoNamedBW}
-              alt='alt'
+              alt='Rotating pulsing circles'
               width={130}
               aria-label='account of current user'
               aria-controls='menu-appbar'
@@ -84,7 +83,6 @@ const Header = () => {
           </Grid>
         </AccordionDetails>
       </Accordion>
-      {/* </AppBar> */}
     </Container>
   );
 };
