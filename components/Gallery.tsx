@@ -38,8 +38,8 @@ const Gallery = () => {
         </Typography>
       </Container>
 
-      <Container maxWidth='md' className='mt-10'>
-        <ImageList variant='masonry' cols={2} gap={12}>
+      <Container maxWidth='md' className='relative mt-10'>
+        <ImageList variant='masonry' cols={2} gap={12} className='gradient-shadow'>
           {galleryList.map((item) => (
             <ImageListItem
               key={item.title}
@@ -53,7 +53,7 @@ const Gallery = () => {
                 alt={item.title}
                 width={360}
                 height={500}
-                className='rounded-xl'
+                className='border rounded-xl border-4 border-white'
               />
             </ImageListItem>
           ))}

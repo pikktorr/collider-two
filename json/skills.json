@@ -1,154 +1,154 @@
 [
   {
-    "imageUrl": "/images/adobexd.png",
+    "imageUrl": "/images/skills/adobexd.png",
     "name": "Adobe Xd"
   },
   {
-    "imageUrl": "/images/archicad.png",
+    "imageUrl": "/images/skills/archicad.png",
     "name": "ArchiCAD"
   },
   {
-    "imageUrl": "/images/bootstrap.png",
+    "imageUrl": "/images/skills/bootstrap.png",
     "name": "Bootstrap"
   },
   {
-    "imageUrl": "/images/commandline.png",
+    "imageUrl": "/images/skills/commandline.png",
     "name": "Commandline"
   },
   {
-    "imageUrl": "/images/css.png",
+    "imageUrl": "/images/skills/css.png",
     "name": "CSS3"
   },
   {
-    "imageUrl": "/images/vue.png",
+    "imageUrl": "/images/skills/vue.png",
     "name": "Vue.js"
   },
   {
-    "imageUrl": "/images/figma.png",
+    "imageUrl": "/images/skills/figma.png",
     "name": "Figma"
   },
   {
-    "imageUrl": "/images/git.png",
+    "imageUrl": "/images/skills/git.png",
     "name": "Git"
   },
   {
-    "imageUrl": "/images/github.png",
+    "imageUrl": "/images/skills/github.png",
     "name": "Github"
   },
   {
-    "imageUrl": "/images/google.png",
+    "imageUrl": "/images/skills/google.png",
     "name": "HowToGoogleThings"
   },
   {
-    "imageUrl": "/images/html.png",
+    "imageUrl": "/images/skills/html.png",
     "name": "HTML5"
   },
   {
-    "imageUrl": "/images/Indesign.png",
+    "imageUrl": "/images/skills/Indesign.png",
     "name": "Indesign"
   },
   {
-    "imageUrl": "/images/javascript.png",
+    "imageUrl": "/images/skills/javascript.png",
     "name": "Javascript"
   },
   {
-    "imageUrl": "/images/typescript.png",
+    "imageUrl": "/images/skills/typescript.png",
     "name": "Typescript"
   },
   {
-    "imageUrl": "/images/materialize.png",
+    "imageUrl": "/images/skills/materialize.png",
     "name": "Material UI"
   },
   {
-    "imageUrl": "/images/mdn.png",
+    "imageUrl": "/images/skills/mdn.png",
     "name": "MDN Webdocs"
   },
   {
-    "imageUrl": "/images/nodejs.png",
+    "imageUrl": "/images/skills/nodejs.png",
     "name": "Node.js"
   },
   {
-    "imageUrl": "/images/npm.png",
+    "imageUrl": "/images/skills/npm.png",
     "name": "npm"
   },
   {
-    "imageUrl": "/images/yarn.png",
+    "imageUrl": "/images/skills/yarn.png",
     "name": "yarn"
   },
   {
-    "imageUrl": "/images/ps.png",
+    "imageUrl": "/images/skills/ps.png",
     "name": "Photoshop"
   },
   {
-    "imageUrl": "/images/pma.png",
+    "imageUrl": "/images/skills/pma.png",
     "name": "phpMyAdmin"
   },
   {
-    "imageUrl": "/images/postman.png",
+    "imageUrl": "/images/skills/postman.png",
     "name": "Postman"
   },
   {
-    "imageUrl": "/images/procreate.png",
+    "imageUrl": "/images/skills/procreate.png",
     "name": "Procreate"
   },
   {
-    "imageUrl": "/images/react.png",
+    "imageUrl": "/images/skills/react.png",
     "name": "React.js"
   },
   {
-    "imageUrl": "/images/pinia.png",
+    "imageUrl": "/images/skills/pinia.png",
     "name": "Pinia"
   },
   {
-    "imageUrl": "/images/redux.png",
+    "imageUrl": "/images/skills/redux.png",
     "name": "Redux"
   },
   {
-    "imageUrl": "/images/responsive-design.png",
+    "imageUrl": "/images/skills/responsive-design.png",
     "name": "Responsive Design"
   },
   {
-    "imageUrl": "/images/sass.png",
+    "imageUrl": "/images/skills/sass.png",
     "name": "Sass"
   },
   {
-    "imageUrl": "/images/tailwind.png",
+    "imageUrl": "/images/skills/tailwind.png",
     "name": "Tailwind CSS"
   },
   {
-    "imageUrl": "/images/trello.png",
+    "imageUrl": "/images/skills/trello.png",
     "name": "Trello"
   },
   {
-    "imageUrl": "/images/vscode.png",
+    "imageUrl": "/images/skills/vscode.png",
     "name": "VS Code"
   },
   {
-    "imageUrl": "/images/docker.png",
+    "imageUrl": "/images/skills/docker.png",
     "name": "Docker"
   },
   {
-    "imageUrl": "/images/gitlab.png",
+    "imageUrl": "/images/skills/gitlab.png",
     "name": "Gitlab"
   },
   {
-    "imageUrl": "/images/insomnia.png",
+    "imageUrl": "/images/skills/insomnia.png",
     "name": "Insomnia"
   },
   {
-    "imageUrl": "/images/jira.png",
+    "imageUrl": "/images/skills/jira.png",
     "name": "Jira"
   },
   {
-    "imageUrl": "/images/mui.png",
+    "imageUrl": "/images/skills/mui.png",
     "name": "Material UI"
   },
   {
-    "imageUrl": "/images/nextjs.png",
+    "imageUrl": "/images/skills/nextjs.png",
     "name": "Next.js"
   },
   {
-    "imageUrl": "/images/phpstorm.png",
+    "imageUrl": "/images/skills/phpstorm.png",
     "name": "PhpStorm"
   }
 ]

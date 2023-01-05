@@ -21,8 +21,13 @@ const ProjectCard = ({ project }: ProjectProps) => {
       glareReverse
       glareMaxOpacity={0.5}
     >
-      <Link href={project.url} rel='noopener noreferrer' target='_blank' className={`${!project.url && 'pointer-events-none'}`}>
-        <Card className='flex flex-col h-[100%] text-justify shadow-2xl shadow-sky-800/30 cursor-pointer rounded-xl'>
+      <Link
+        href={project.url}
+        rel='noopener noreferrer'
+        target='_blank'
+        className={`${!project.url && 'pointer-events-none'}`}
+      >
+        <Card className='flex flex-col h-[100%] text-justify hover:gradient-shadow shadow-2xl cursor-pointer rounded-xl'>
           <Image
             src={project.imageUrl as string}
             width={650}
@@ -57,7 +62,9 @@ const ProjectCard = ({ project }: ProjectProps) => {
                     alt={iconName}
                     width={28}
                     height={28}
-                    className='opacity-75'
+                    className={`opacity-75 ${
+                      !project.url && 'pointer-events-auto cursor-auto'
+                    }`}
                   />
                 </Tooltip>
               );

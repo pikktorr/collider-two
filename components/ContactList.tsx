@@ -4,6 +4,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import IconButton from '@mui/material/IconButton';
+import { Tooltip } from '@mui/material';
+import Link from 'next/link';
 
 const contactList = [
   {
@@ -37,17 +39,21 @@ const ContactList = () => {
   return (
     <>
       {contactList.map((item) => (
-        <IconButton
-          key={item.key}
-          title={item.key}
-          size='medium'
-          aria-label='delete'
-          className='transition-all duration-300 ease-in-out from-pink-500 to-indigo-700 text-slate-700 hover:bg-gradient-to-r hover:text-slate-50'
-          href={item.url}
-          target='_blank'
-        >
-          {item.component}
-        </IconButton>
+        <Tooltip key={item.key} title={item.key}>
+          <Link href={item.url} rel='noopener noreferrer' target='_blank'>
+            <IconButton
+              key={item.key}
+              title={item.key}
+              size='medium'
+              aria-label='delete'
+              className='transition-all duration-300 ease-in-out from-pink-500 to-indigo-700 text-slate-700 hover:bg-gradient-to-r hover:text-slate-50'
+              // href={item.url}
+              // target='_blank'
+            >
+              {item.component}
+            </IconButton>
+          </Link>
+        </Tooltip>
       ))}
     </>
   );
