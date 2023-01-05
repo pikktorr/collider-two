@@ -1,17 +1,31 @@
 [
   {
+    "title": "Everyday projects",
+    "tool": ["React.js", "Next.js", "Vue.js", "TypeScript"],
+    "about": "Multiple projects from everyday work with frontend technologies like React.js, Next.js, Vue.js, Typescript, Material UI and Tailwind CSS.",
+    "imageUrl": "/images/programming.png",
+    "url": ""
+  },
+  {
+    "title": "Collider.Two",
+    "tool": ["Next.js", "TypeScript", "Material UI", "Tailwind CSS"],
+    "about": "After two years I updated my landing page with more advanced technologies and libraries I learned in my new career.",
+    "imageUrl": "/images/collider_logo.svg",
+    "url": "https://collider-two.vercel.app/"
+  },
+  {
+    "title": "Collider.One",
+    "tool": ["JavaScript", "Sass", "HTML"],
+    "about": "My former landing page: Portfolio of an Architect / Designer / Coder",
+    "imageUrl": "/images/collider_one.png",
+    "url": "https://pikktorr.github.io/collider/"
+  },
+  {
     "title": "Freaky Vegan",
     "tool": ["React.js", "Redux", "Firebase", "Stripe"],
     "about": "Search for vegan cafes and restaurants, order ingredients, cakes and meals.",
     "imageUrl": "/images/pumpkin-cupcake.jpg",
     "url": "https://freaky-vegan.vercel.app/"
-  },
-  {
-    "title": "Smart-Brainer",
-    "tool":[ "React.js"],
-    "about": "This application detects faces on pasted images. Can use with any fictional email addresses!",
-    "imageUrl": "/images/smartbrainer_small.jpg",
-    "url": "https://smart-brainer-by-pikktorr.herokuapp.com/"
   },
   {
     "title": "Horsie Chess Board",
@@ -35,25 +49,11 @@
     "url": "https://pikktorr.github.io/animal-crossing-new-horizons/"
   },
   {
-    "title": "Breaking Text",
-    "tool": ["JavaScript", "HTML", "CSS"],
-    "about": "Write or insert text into the input field, then brake lines at the given number.",
-    "imageUrl": "/images/breaking-text-small.jpg",
-    "url": "https://pikktorr.github.io/breaking-text/"
-  },
-  {
     "title": "Infinite Carousel",
     "tool": ["JavaScript", "HTML", "CSS"],
     "about": "A vanilla javaScript infinite carousel with my favourite music albums. Alt-J, Beck, John Coffey, Portugal the Man, Radiohead, etc.",
     "imageUrl": "/images/carousel_small.png",
     "url": "https://pikktorr.github.io/vanilla-carousel/"
-  },
-  {
-    "title": "The Shopping List",
-    "tool": ["JavaScript", "HTML", "CSS"],
-    "about": "A simple, mandatory shopping list with random colored item backgrounds. Everything you need!",
-    "imageUrl": "/images/shopping_small.jpg",
-    "url": "https://pikktorr.github.io/shopping-list.github.io/"
   },
   {
     "title": "UX/UI Portfolio Design",

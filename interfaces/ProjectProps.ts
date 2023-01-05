@@ -3,7 +3,7 @@ export interface ProjectProps {
     title: string;
     tool: string[];
     about: string;
-    imageUrl: string;
+    imageUrl?: string;
     url: string;
   };
 }
