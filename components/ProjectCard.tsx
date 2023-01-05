@@ -12,6 +12,9 @@ import { projectIcons } from '../data/projectIcons';
 import { ProjectProps } from '../interfaces/ProjectProps';
 
 const ProjectCard = ({ project }: ProjectProps) => {
+
+console.log('href', project.url)
+  
   return (
     <Tilt
       tiltMaxAngleX={6}
@@ -22,7 +25,7 @@ const ProjectCard = ({ project }: ProjectProps) => {
       glareMaxOpacity={0.5}
     >
       <Link
-        href={project.url}
+        href={project.url ?? ''}
         rel='noopener noreferrer'
         target='_blank'
         className={`${!project.url && 'pointer-events-none'}`}

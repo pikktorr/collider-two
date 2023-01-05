@@ -40,7 +40,7 @@ const ContactList = () => {
     <>
       {contactList.map((item) => (
         <Tooltip key={item.key} title={item.key}>
-          <Link href={item.url} rel='noopener noreferrer' target='_blank'>
+          <Link href={item.url ?? ''} rel='noopener noreferrer' target='_blank'>
             <IconButton
               key={item.key}
               title={item.key}
