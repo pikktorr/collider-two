@@ -47,8 +47,6 @@ const ContactList = () => {
               size='medium'
               aria-label='delete'
               className='transition-all duration-300 ease-in-out from-pink-500 to-indigo-700 text-slate-700 hover:bg-gradient-to-r hover:text-slate-50'
-              // href={item.url}
-              // target='_blank'
             >
               {item.component}
             </IconButton>
