@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Logo from '/public/images/collider_logo.svg';
+import Logo from '/public/images/projects/collider_logo.svg';
 import Tilt from 'react-parallax-tilt';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';

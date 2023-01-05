@@ -14,8 +14,8 @@ import ContactList from './ContactList';
 
 const About = () => {
   return (
-    <Container maxWidth='md' className='md:px-0' id='about-section'>
-      <Card className='text-justify rounded-xl sm:flex sm:flex-row-reverse shadow-2xl shadow-sky-800/30'>
+    <Container maxWidth='md' className='md:px-0 relative' id='about-section'>
+      <Card className='text-justify rounded-xl sm:flex sm:flex-row-reverse gradient-shadow shadow-none'>
         <div className='mx-auto h-[200px] w-[200px] overflow-hidden rounded-full max-sm:mt-8 sm:h-auto sm:w-auto sm:overflow-visible sm:rounded-none'>
           <Image
             src={ProfilePic}

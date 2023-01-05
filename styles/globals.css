@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .gradient-shadow {
+    @apply before:absolute before:w-full before:h-full before:-z-10 before:bg-gradient-to-tr before:from-purple-700/20 before:to-sky-800/30 before:left-0 before:top-0 before:blur-xl;
+  }
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;

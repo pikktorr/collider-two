@@ -1,6 +1,5 @@
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Image from 'next/image';
@@ -11,8 +10,8 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <Container maxWidth='lg' className='mt-20 mb-10'>
-      <AppBar position='static' className='bg-white rounded-full shadow-2xl shadow-sky-800/30'>
+    <Container maxWidth='lg' className='relative mt-20 mb-10'>
+      <AppBar position='static' className='bg-white rounded-full shadow-none gradient-shadow'>
         <Toolbar className='items-center justify-between px-4'>
           <Typography
             variant='subtitle2'

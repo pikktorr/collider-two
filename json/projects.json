@@ -3,63 +3,63 @@
     "title": "Everyday projects",
     "tool": ["React.js", "Next.js", "Vue.js", "TypeScript"],
     "about": "Multiple projects from everyday work with frontend technologies like React.js, Next.js, Vue.js, Typescript, Material UI and Tailwind CSS.",
-    "imageUrl": "/images/programming.png",
+    "imageUrl": "/images/projects/programming.png",
     "url": ""
   },
   {
     "title": "Collider.Two",
     "tool": ["Next.js", "TypeScript", "Material UI", "Tailwind CSS"],
     "about": "After two years I updated my landing page with more advanced technologies and libraries I learned in my new career.",
-    "imageUrl": "/images/collider_logo.svg",
+    "imageUrl": "/images/projects/collider_logo.svg",
     "url": "https://collider-two.vercel.app/"
   },
   {
     "title": "Collider.One",
     "tool": ["JavaScript", "Sass", "HTML"],
     "about": "My former landing page: Portfolio of an Architect / Designer / Coder",
-    "imageUrl": "/images/collider_one.png",
+    "imageUrl": "/images/projects/collider_one.png",
     "url": "https://pikktorr.github.io/collider/"
   },
   {
     "title": "Freaky Vegan",
     "tool": ["React.js", "Redux", "Firebase", "Stripe"],
     "about": "Search for vegan cafes and restaurants, order ingredients, cakes and meals.",
-    "imageUrl": "/images/pumpkin-cupcake.jpg",
+    "imageUrl": "/images/projects/pumpkin-cupcake.jpg",
     "url": "https://freaky-vegan.vercel.app/"
   },
   {
     "title": "Horsie Chess Board",
     "tool": ["JavaScript", "HTML", "CSS"],
     "about": "Place down your Knight on the chess board and see how many moves you have, where to move from that field.",
-    "imageUrl": "/images/chess-small.png",
+    "imageUrl": "/images/projects/chess-small.png",
     "url": "https://pikktorr.github.io/horsie-chess-board/"
   },
   {
     "title": "Can't Do It All",
     "tool": ["JavaScript", "HTML", "CSS"],
     "about": "One have to choose between coding, social life and sleeping. Can't do it all... especially nowadays.",
-    "imageUrl": "/images/cant-do-it-all-small.png",
+    "imageUrl": "/images/projects/cant-do-it-all-small.png",
     "url": "https://pikktorr.github.io/cant-do-it-all/"
   },
   {
     "title": "Animal Crossing: New Horizons",
     "tool": ["React.js"],
     "about": "Search villagers from the new Nintendo game Animal Crossing: New Horizons through a free API.",
-    "imageUrl": "/images/animal_crossing_small.png",
+    "imageUrl": "/images/projects/animal_crossing_small.png",
     "url": "https://pikktorr.github.io/animal-crossing-new-horizons/"
   },
   {
     "title": "Infinite Carousel",
     "tool": ["JavaScript", "HTML", "CSS"],
     "about": "A vanilla javaScript infinite carousel with my favourite music albums. Alt-J, Beck, John Coffey, Portugal the Man, Radiohead, etc.",
-    "imageUrl": "/images/carousel_small.png",
+    "imageUrl": "/images/projects/carousel_small.png",
     "url": "https://pikktorr.github.io/vanilla-carousel/"
   },
   {
     "title": "UX/UI Portfolio Design",
     "tool": ["Adobe XD"],
     "about": "A mobile portfolio design from hand drawn sketches to wireframes to prototype preview.",
-    "imageUrl": "/images/ux_ui_small.png",
+    "imageUrl": "/images/projects/ux_ui_small.png",
     "url": "https://xd.adobe.com/view/f7600bf5-e88a-4c24-4472-e9ecc2d04c0c-8151/?fullscreen"
   }
 ]

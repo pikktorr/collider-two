@@ -1,8 +1,6 @@
 import { useState } from 'react';
-import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
-import Menu from '@mui/material/Menu';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
@@ -21,9 +19,13 @@ const Header = () => {
   const [dropdownMenu, setDropDownMenu] = useState(false);
 
   return (
-    <Container maxWidth='lg' id='header-section' className='absolute inset-x-0 z-10'>
+    <Container
+      maxWidth='lg'
+      id='header-section'
+      className='absolute inset-x-0 z-10 gradient-shadow'
+    >
       <Accordion
-        className='bg-white rounded-[32px] shadow-xl w-100 shadow-2xl shadow-sky-800/30'
+        className='bg-white rounded-[32px] w-100 shadow-none'
         expanded={dropdownMenu}
       >
         <Toolbar className='justify-between px-4 h-[64px]'>
@@ -65,11 +67,7 @@ const Header = () => {
           </IconButton>
         </Toolbar>
         <AccordionDetails className='hidden max-sm:block'>
-          <Grid
-            className='text-center'
-            container
-            direction={'column'}
-          >
+          <Grid className='text-center' container direction={'column'}>
             {pages.map((page) => (
               <Link href={`#${page.toLowerCase()}-section`} key={page}>
                 <Button

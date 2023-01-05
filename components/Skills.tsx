@@ -42,19 +42,19 @@ const Skills = () => {
         <AutoSlider
           perPage={mobileDisplay ? 4 : 7}
           speed={-0.9}
-          firstIndex={10}
+          firstIndex={9}
           lastIndex={17}
         />
         <AutoSlider
           perPage={mobileDisplay ? 4 : 9}
           speed={1}
-          firstIndex={18}
+          firstIndex={17}
           lastIndex={27}
         />
         <AutoSlider
           perPage={mobileDisplay ? 4 : 8}
           speed={-0.7}
-          firstIndex={28}
+          firstIndex={27}
         />
       </Container>
     </>
