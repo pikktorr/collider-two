@@ -1,77 +1,71 @@
 [
   {
+    "url": "/images/gallery/digital-1.png",
+    "videoUrl": "https://youtu.be/UplcAITOEHQ",
+    "title": "Wolf Medallion from The Witcher"
+  },
+  {
+    "url": "/images/gallery/sunset_over_szeged.jpg",
+    "videoUrl": "https://youtu.be/_YBrFiM7Gqs",
+    "title": "Sunset Over Szeged"
+  },
+  {
+    "url": "/images/gallery/concrete_jungle.jpg",
+    "videoUrl": "https://youtu.be/jizuTXYHTzo",
+    "title": "Concrete Jungle"
+  },
+  {
+    "url": "/images/gallery/arrival_in_the_lands_between.jpg",
+    "videoUrl": "https://youtu.be/6xa4mU7V0pg",
+    "title": "Arrival in the Lands Between"
+  },
+  {
+    "url": "/images/gallery/hot_summer_vibes.jpg",
+    "videoUrl": "https://youtu.be/cRnC7DwiPe4",
+    "title": "Hot Summer Vibes"
+  },
+  {
+    "url": "/images/gallery/oh_deer_no_future.jpg",
+    "videoUrl": "https://youtu.be/FPpqKXhqbZc",
+    "title": "Oh Deer, No Future"
+  },
+  {
+    "url": "/images/gallery/szentendre_postcard.jpg",
+    "videoUrl": "https://youtu.be/rVup1soebTk",
+    "title": "Szentendre Postcard"
+  },
+  {
+    "url": "/images/gallery/beach.png",
+    "title": "By the Lake"
+  },
+  {
+    "url": "/images/gallery/need_potion_color.jpg",
+    "videoUrl": "https://youtu.be/gExzcxSY6ZM",
+    "title": "Need Potion Color"
+  },
+  {
+    "url": "/images/gallery/need_potion_ink.png",
+    "videoUrl": "https://youtu.be/zB6ipNLl3Zc",
+    "title": "Need Potion Ink"
+  },
+  {
+    "url": "/images/gallery/museum.png",
+    "title": "Móra Ferenc Museum, Szeged"
+  },
+  {
+    "url": "/images/gallery/tree.png",
+    "title": "It's a Tree"
+  },
+  {
     "url": "/images/gallery/msc-1.png",
-    "title": "Outdoor Stage in Szeged",
-    "about": "Master Architecture Degree project"
-  },
-  {
-    "url": "/images/gallery/msc-2.png",
-    "title": "Installation in the Liget Park",
-    "about": "Master Architecture Degree Project"
-  },
-  {
-    "url": "/images/gallery/msc-3.png",
-    "title": "Floor Plans and Detailed Section",
-    "about": "Master Architecture Degree Project"
-  },
-  {
-    "url": "/images/gallery/msc-4.png",
-    "title": "Sections and Facades",
-    "about": "Master Architecture Degree Project"
+    "title": "Outdoor Stage Concept in Szeged"
   },
   {
     "url": "/images/gallery/msc-5.png",
-    "title": "Day/Night Visuals",
-    "about": "Master Architecture Degree Project"
+    "title": "Day/Night Visuals Concept in Szeged"
   },
   {
-    "url": "/images/gallery/digital-1.png",
-    "title": "Wolf Medallion from The Witcher",
-    "about": "Digital Art"
-  },
-  {
-    "url": "/images/gallery/digital-2.png",
-    "title": "Need Potion",
-    "about": "Digital Art"
-  },
-  {
-    "url": "/images/gallery/digital-3.png",
-    "title": "Messing with Watercolour",
-    "about": "Digital Art"
-  },
-  {
-    "url": "/images/gallery/digital-4.png",
-    "title": "Oh Deer!",
-    "about": "Digital Art"
-  },
-  {
-    "url": "/images/gallery/digital-5.png",
-    "title": "Concrete Forest",
-    "about": "Digital Art"
-  },
-  {
-    "url": "/images/gallery/sketch-1.png",
-    "title": "By the Lake",
-    "about": "Sketches"
-  },
-  {
-    "url": "/images/gallery/sketch-2.png",
-    "title": "Backend Firewalls",
-    "about": "Sketches"
-  },
-  {
-    "url": "/images/gallery/sketch-3.png",
-    "title": "Móra Ferenc Museum, Szeged",
-    "about": "Sketches"
-  },
-  {
-    "url": "/images/gallery/sketch-4.png",
-    "title": "Anna-Well, Szeged",
-    "about": "Sketches"
-  },
-  {
-    "url": "/images/gallery/sketch-5.png",
-    "title": "It's a Tree",
-    "about": "Sketches"
+    "url": "/images/gallery/msc-small-0.png",
+    "title": "Outdoor Stage Theater Concept in Szeged"
   }
 ]
