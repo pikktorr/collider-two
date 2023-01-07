@@ -1,7 +1,10 @@
 import '../styles/dist.css';
 import type { AppProps } from 'next/app';
-import { StyledEngineProvider } from '@mui/material/styles';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
+import {
+  ThemeProvider,
+  createTheme,
+  StyledEngineProvider
+} from '@mui/material/styles';
 import { Analytics } from '@vercel/analytics/react';
 
 const theme = createTheme({
