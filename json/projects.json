@@ -28,13 +28,6 @@
     "url": "https://pikktorr.github.io/collider/"
   },
   {
-    "title": "Horsie Chess Board",
-    "tool": ["JavaScript", "HTML", "CSS"],
-    "about": "Place down your Knight on the chess board and see how many moves you have, where to move from that field.",
-    "imageUrl": "/images/projects/chess-small.png",
-    "url": "https://pikktorr.github.io/horsie-chess-board/"
-  },
-  {
     "title": "Animal Crossing: New Horizons",
     "tool": ["React.js"],
     "about": "Search villagers from the new Nintendo game Animal Crossing: New Horizons through a free API.",

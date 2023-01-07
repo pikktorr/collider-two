@@ -5,8 +5,6 @@ import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 
 const Banner = () => {
-  const handleImageTap = () => console.log('tap tap tap');
-
   return (
     <Container
       maxWidth='md'
@@ -20,7 +18,6 @@ const Banner = () => {
         perspective={500}
       >
         <Grid
-          onClick={handleImageTap}
           className={
             'sm:hover:scale-110 transition-transform duration-200 ease-in-out relative mx-auto sm:w-3/4 rounded-full max-sm:p-2'
           }
