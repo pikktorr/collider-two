@@ -7,6 +7,13 @@
     "url": ""
   },
   {
+    "title": "Freaky Vegan",
+    "tool": ["React.js", "Redux", "Firebase", "Stripe"],
+    "about": "Search for vegan cafes and restaurants, order ingredients, cakes and meals.",
+    "imageUrl": "/images/projects/pumpkin-cupcake.jpg",
+    "url": "https://freaky-vegan.vercel.app/"
+  },
+  {
     "title": "Collider.Two",
     "tool": ["Next.js", "TypeScript", "Material UI", "Tailwind CSS"],
     "about": "After two years I updated my landing page with more advanced technologies and libraries I learned in my new career.",
@@ -21,13 +28,6 @@
     "url": "https://pikktorr.github.io/collider/"
   },
   {
-    "title": "Freaky Vegan",
-    "tool": ["React.js", "Redux", "Firebase", "Stripe"],
-    "about": "Search for vegan cafes and restaurants, order ingredients, cakes and meals.",
-    "imageUrl": "/images/projects/pumpkin-cupcake.jpg",
-    "url": "https://freaky-vegan.vercel.app/"
-  },
-  {
     "title": "Horsie Chess Board",
     "tool": ["JavaScript", "HTML", "CSS"],
     "about": "Place down your Knight on the chess board and see how many moves you have, where to move from that field.",
@@ -35,25 +35,11 @@
     "url": "https://pikktorr.github.io/horsie-chess-board/"
   },
   {
-    "title": "Can't Do It All",
-    "tool": ["JavaScript", "HTML", "CSS"],
-    "about": "One have to choose between coding, social life and sleeping. Can't do it all... especially nowadays.",
-    "imageUrl": "/images/projects/cant-do-it-all-small.png",
-    "url": "https://pikktorr.github.io/cant-do-it-all/"
-  },
-  {
     "title": "Animal Crossing: New Horizons",
     "tool": ["React.js"],
     "about": "Search villagers from the new Nintendo game Animal Crossing: New Horizons through a free API.",
     "imageUrl": "/images/projects/animal_crossing_small.png",
     "url": "https://pikktorr.github.io/animal-crossing-new-horizons/"
-  },
-  {
-    "title": "Infinite Carousel",
-    "tool": ["JavaScript", "HTML", "CSS"],
-    "about": "A vanilla javaScript infinite carousel with my favourite music albums. Alt-J, Beck, John Coffey, Portugal the Man, Radiohead, etc.",
-    "imageUrl": "/images/projects/carousel_small.png",
-    "url": "https://pikktorr.github.io/vanilla-carousel/"
   },
   {
     "title": "UX/UI Portfolio Design",
