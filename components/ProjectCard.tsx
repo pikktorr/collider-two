@@ -12,9 +12,6 @@ import { projectIcons } from '../data/projectIcons';
 import { ProjectProps } from '../interfaces/ProjectProps';
 
 const ProjectCard = ({ project }: ProjectProps) => {
-
-console.log('href', project.url)
-  
   return (
     <Tilt
       tiltMaxAngleX={6}
